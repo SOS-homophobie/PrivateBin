@@ -454,6 +454,11 @@ if (strlen($NOTICE)) :
 				<div role="alert" class="alert alert-info">
 					<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
 					<?php echo I18n::encode($NOTICE), PHP_EOL; ?>
+	               <li>	Pour déposer votre B3, il faut "Attacher un fichier" ci dessus</li>
+ 				   <li> Indiquer votre nom et votre prénom dans le cadre blanc ci-dessous</li>
+				   <li> Faire Envoyer</li>
+				   <li> Vous récupérez le lien et l'envoyez à <a href="mailto:secretariat.administratif@sos-homophobie.org">secretariat.administratif@sos-homophobie.org</a></li>
+				   <li> Le secrétariat vous enverra un accusé de réception, consultera votre extrait avant de le détruire puis le détruira</li>
 				</div>
 <?php
 endif;
